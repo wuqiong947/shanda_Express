@@ -1,0 +1,260 @@
+.screen-2 .wrip #cebian li:nth-child(1) #daohang
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    -webkit-transform: translate(10px, 0);
+       -moz-transform: translate(10px, 0);
+        -ms-transform: translate(10px, 0);
+            transform: translate(10px, 0);
+
+    color: #de3c03;
+    background-color: #dedede;
+}
+
+#chajianhe
+{
+    position: relative;
+    top: -600px;
+    left: 600px;
+
+    width: 600px;
+    height: auto;
+
+    background: #dedede;
+}
+
+#chajianhe ul
+{
+    position: relative;
+
+    width: 200px;
+    height: 30px;
+
+    background: #de3c03;
+    box-shadow: 2px 2px 0 0 #de3c03;
+}
+
+#chajianhe ul li
+{
+    float: left;
+
+    width: 100px;
+    height: 30px;
+
+    background: #dedede;
+}
+
+
+
+.shuru1 #shurukuang1
+{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+
+    overflow: visible;
+
+    width: 300px;
+    height: 30px;
+
+    border: 1px #de3c03 solid;
+}
+
+.shuru1 #button1
+{
+    position: absolute;
+    top: 250px;
+    left: 130px;
+
+    width: 100px;
+    height: 30px;
+
+    transition: .1s;
+
+    color: #fff;
+    border: 0;
+    background: #de3c03;
+}
+
+.shuru1 #shurukuang2
+{
+    position: absolute;
+    top: 170px;
+    left: 130px;
+
+    overflow: visible;
+
+    width: 100px;
+    height: 30px;
+
+    border: 1px #de3c03 solid;
+}
+
+.shuru1 #span1
+{
+    position: absolute;
+    /* font-weight: bold; */
+    top: 123px;
+    left: 60px;
+
+    color: #de3c03;
+}
+
+.shuru1 #span2
+{
+    position: absolute;
+    /* font-weight: bold; */
+    top: 173px;
+    left: 60px;
+
+    color: #de3c03;
+}
+
+#yzm
+{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+
+    width: 90px;
+    height: 30px;
+}
+
+.shuru1 #button1:hover
+{
+    transform: translate(-2px, -2px);
+}
+
+
+
+.shuru2 #span3
+{
+    position: absolute;
+    /* font-weight: bold; */
+    top: 123px;
+    left: 60px;
+
+    color: #de3c03;
+}
+
+.shuru2 #shurukuang3
+{
+    position: absolute;
+    top: 120px;
+    left: 130px;
+
+    overflow: visible;
+
+    width: 300px;
+    height: 30px;
+
+    border: 1px #de3c03 solid;
+}
+
+.shuru2 #span4
+{
+    position: absolute;
+    /* font-weight: bold; */
+    top: 173px;
+    left: 60px;
+
+    color: #de3c03;
+}
+
+.shuru2 #shurukuang4
+{
+    position: absolute;
+    top: 170px;
+    left: 130px;
+
+    overflow: visible;
+
+    width: 100px;
+    height: 30px;
+
+    border: 1px #de3c03 solid;
+}
+
+#button3
+{
+    position: absolute;
+    top: 170px;
+    left: 230px;
+
+    width: 80px;
+    height: 30px;
+
+    transition: .1s;
+
+    color: #fff;
+    border: 0;
+    background: #de3c03;
+}
+
+.shuru2 #span5
+{
+    position: absolute;
+    /* font-weight: bold; */
+    top: 223px;
+    left: 60px;
+
+    color: #de3c03;
+}
+
+.shuru2 #shurukuang5
+{
+    position: absolute;
+    top: 220px;
+    left: 130px;
+
+    overflow: visible;
+
+    width: 200px;
+    height: 30px;
+
+    border: 1px #de3c03 solid;
+}
+
+.shuru2 #button2
+{
+    position: absolute;
+    top: 300px;
+    left: 130px;
+
+    width: 100px;
+    height: 30px;
+
+    transition: .1s;
+
+    color: #fff;
+    border: 0;
+    background: #de3c03;
+}
+
+.shuru2 #button2:hover
+{
+    transform: translate(-2px, -2px);
+}
+
+#v_container
+{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+
+    width: 90px;
+    height: 30px;
+}
+
+#c_container
+{
+    position: absolute;
+    top: 170px;
+    left: 250px;
+
+    width: 90px;
+    height: 30px;
+}
+
+

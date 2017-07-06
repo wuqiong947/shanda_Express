@@ -1,0 +1,644 @@
+.wrip1
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 1300px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrip
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 1500px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrip1 .lt ul a img
+{
+    float: left;
+
+    width: 140px;
+    height: 70px;
+}
+
+
+header
+{
+    width: 100%;
+    height: 70px;
+
+    background-color: #bfbebe;
+}
+
+header nav
+{
+    width: 600px;
+    height: 100%;
+}
+
+header .lt ul li
+{
+    font-size: 14px;
+    line-height: 70px;
+
+    float: left;
+
+    width: 70px;
+    margin: 0 0 0 10px;
+
+    text-align: center;
+
+    color: #de3c03;
+}
+
+header .rt ul li
+{
+    font-size: 14px;
+    line-height: 70px;
+
+    float: right;
+
+    width: 70px;
+    margin: 0 0 0 10px;
+
+    text-align: center;
+
+    color: #de3c03;
+}
+
+.lt
+{
+    float: left;
+}
+
+.rt
+{
+    float: right;
+}
+
+header .wrip1 .rt ul li .p
+{
+    position: absolute;
+    top: 17px;
+    right: 55px;
+
+    width: 35px;
+    height: 35px;
+
+    background: url('../images/phone_logo.png') no-repeat;
+    background-size: cover;
+}
+
+header .wrip1 .rt ul li .q
+{
+    position: absolute;
+    top: 17px;
+    right: 323px;
+
+    width: 35px;
+    height: 35px;
+
+    background: url('../images/intnet_logo.png') no-repeat;
+    background-size: cover;
+}
+
+header .rt ul li:last-child,
+header .rt ul li:first-child
+{
+    margin-left: 20px;
+}
+
+.screen-1
+{
+    width: 100%;
+    height: 650px;
+
+    background: #d8d8d8;
+}
+
+#container
+{
+    position: relative;
+
+    overflow: hidden;
+
+    width: 1200px;
+    height: 500px;
+
+    border: 1px solid #de3c03;
+}
+#list
+{
+    position: absolute;
+    z-index: 1;
+
+    width: 4200px;
+    height: 400px;
+}
+#list img
+{
+    float: left;
+
+    width: 1200px;
+    height: 500px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% auto;
+}
+#buttons
+{
+    position: absolute;
+    z-index: 2;
+    bottom: 20px;
+    left: 250px;
+
+    width: 100px;
+    height: 10px;
+}
+#buttons span
+{
+    float: left;
+
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+
+    cursor: pointer;
+
+    border: 1px solid #fff;
+    border-radius: 50%;
+    background: #333;
+}
+#buttons .on
+{
+    background: orangered;
+}
+.arrow
+{
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 39px;
+
+    position: absolute;
+    z-index: 2;
+    top: 180px;
+
+    display: none;
+
+    width: 40px;
+    height: 40px;
+
+    cursor: pointer;
+    text-align: center;
+
+    color: #fff;
+    background-color: rgba(0, 0, 0, .3);
+}
+.arrow:hover
+{
+    background-color: rgba(0, 0, 0, .7);
+}
+#container:hover .arrow
+{
+    display: block;
+}
+#prev
+{
+    left: 20px;
+}
+#next
+{
+    right: 20px;
+}
+
+img
+{
+    width: 100%;
+
+    background-size: cover;
+}
+
+.screen-2
+{
+    position: relative;
+
+    width: 100%;
+    height: 50px;
+
+    background: #dedede;
+}
+
+.screen-2 .wrip ul
+{
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+}
+
+.screen-2 .wrip ul li a
+{
+    line-height: 50px;
+
+    float: left;
+
+    width: 250px;
+    height: 50px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #de3c03;
+}
+
+.screen-2 .wrip ul li a .cx
+{
+    position: absolute;
+    top: 15px;
+    left: 70px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/zz.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .jj
+{
+    position: absolute;
+    top: 15px;
+    left: 320px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/jj.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .yf
+{
+    position: absolute;
+    top: 15px;
+    left: 556px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/yf.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .wd
+{
+    position: absolute;
+    top: 15px;
+    left: 805px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/rmfw.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .fanwei
+{
+    position: absolute;
+    top: 15px;
+    left: 1055px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/ssfw.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .kf
+{
+    position: absolute;
+    top: 15px;
+    left: 1320px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/zxkf.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-3
+{
+    width: 100%;
+    height: 600px;
+}
+
+.screen-3 .wrip .header
+{
+    width: 100%;
+    height: 150px;
+}
+
+.screen-3 .wrip .header2
+{
+    width: 100%;
+    height: 50px;
+}
+
+.screen-3 .wrip .header h1
+{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 150px;
+
+    text-align: center;
+
+    color: #333;
+}
+
+.screen-3 .wrip .header2 h2
+{
+    font-size: 15px;
+    line-height: 15px;
+
+    position: relative;
+    top: -25px;
+
+    text-align: center;
+
+    color: #333;
+}
+
+.hen
+{
+    width: 100px;
+    height: 2px;
+    margin: 0 auto;
+
+    background-color: #e23a3a;
+}
+
+#triangle-up
+{
+    width: 0;
+    height: 0;
+    margin: 0 auto;
+
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid #e23a3a;
+    border-left: 5px solid transparent;
+}
+
+.screen-3 .wrip .header2 #pacman
+{
+    position: absolute;
+    top: 210px;
+    left: 615px;
+
+    width: 0;
+    height: 0;
+
+    border-top: 20px solid #de3c03;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #de3c03;
+    border-left: 20px solid #de3c03;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.jieshao_wrip
+{
+    position: relative;
+    top: 0;
+
+    width: 1500px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.mokuai
+{
+    float: left;
+
+    width: 500px;
+    height: 250px;
+
+    transition: 1.5s linear;
+}
+
+.tupian
+{
+    position: relative;
+    top: 20px;
+    left: 30px;
+
+    width: 400px;
+    height: 200px;
+    margin: 10px;
+
+    transition: .5s linear;
+
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.tupian1
+{
+    background: url('../images/xc1.jpg');
+}
+.tupian2
+{
+    background: url('../images/xc2.jpg');
+}
+
+.tupian3
+{
+    background: url('../images/wenjian.jpg');
+    background-position: left;
+}
+
+.wenzi span
+{
+    display: block;
+
+    text-align: center;
+
+    color: #000;
+}
+
+.wenzi
+{
+    font-size: 15px;
+
+    position: relative;
+    left: 40px;
+
+    width: 400px;
+    height: 50px;
+
+    transition: .5s linear;
+    text-align: center;
+
+    color: #fff;
+    background-color: #fff;
+}
+
+.mokuai:hover > .tupian
+{
+    height: 220px;
+}
+
+.mokuai:hover > .wenzi > span
+{
+    color: #fff;
+}
+
+.mokuai:hover > .wenzi
+{
+    color: #fff;
+    background-color: #de3c03;
+}
+
+.daohang
+{
+    transition: .5s linear;
+}
+
+.screen-2 .wrip ul li a:hover
+{
+    color: #de3c03;
+    background-color: #dedede;
+    -webkit-transform: translate(10px, 0);
+    -moz-transform: translate(10px, 0);
+    -ms-transform:  translate(10px, 0);
+    transform:  translate(10px, 0);
+}
+
+footer
+{
+    height: 350px;
+
+    background-color: #de3c03;
+}
+
+.wrip2
+{
+    position: relative;
+
+    width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.wrip2 .label-top
+{
+    position: absolute;
+    top: 50px;
+
+    width: 1100px;
+    height: 250px;
+
+    border-right: white 1px solid;
+}
+
+.wrip2 .label-top li
+{
+    display: block;
+    float: left;
+
+    width: 125px;
+    max-width: 125px;
+    height: auto;
+}
+
+.wrip2 .label-top li a
+{
+    font-size: 10px;
+    line-height: 30px;
+
+    display: block;
+
+    color: white;
+}
+
+.f-title,
+.wrip2 .label-top li a:first-child
+{
+    font-weight: bold;
+
+    color: white;
+}
+
+p[class = 'f-title']
+{
+    font-size: 15px;
+
+    position: relative;
+    top: 20px;
+    left: 240px;
+}
+
+
+.dctubiao a img
+{
+    position: relative;
+
+    width: 50px;
+    height: 50px;
+}
+
+.dctubiao   :nth-child(1) img
+{
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+.dctubiao   :nth-child(2) img
+{
+    position: relative;
+    top: 50px;
+    left: 260px;
+}
+.dctubiao   :nth-child(3) img
+{
+    position: relative;
+    top: 0;
+    left: 500px;
+}
+
+#banquan
+{
+    font-size: 14px;
+    line-height: 15px;
+
+    height: 15px;
+
+    text-align: center;
+
+    background-color: #de3c03;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+#xuanfu{
+    display: none ;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    z-index: 100;
+    background-color: #FFFFFF;
+    background-size: cover;
+    background-image: url('../images/youxiang.png');
+}

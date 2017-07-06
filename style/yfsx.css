@@ -1,0 +1,30 @@
+.screen-2 .wrip #cebian li:nth-child(3) #daohang
+{
+    font-size: 16px;
+    font-weight: bold;
+
+    -webkit-transform: translate(10px, 0);
+       -moz-transform: translate(10px, 0);
+        -ms-transform: translate(10px, 0);
+            transform: translate(10px, 0);
+
+    color: #de3c03;
+    background-color: #dedede;
+}
+
+.yfsx
+{
+    font-size: 12px;
+
+    position: absolute;
+    top: 80px;
+    left: 550px;
+
+    width: 800px;
+    height: auto;
+}
+
+.yfsx h4{
+	font-size: 14px;
+	font-weight: bold;
+}

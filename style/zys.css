@@ -1,0 +1,143 @@
+.screen-2
+{
+    position: relative;
+
+    height: 690px;
+}
+
+.screen-2  .wrip ul
+{
+    position: relative;
+    top: 50px;
+    left: 100px;
+
+    width: 250px;
+    height: 300px;
+}
+
+.screen-2  .wrip ul li
+{
+    line-height: 50px;
+
+    position: relative;
+
+    float: left;
+    float: left;
+
+    width: 250px;
+    height: 50px;
+
+    text-align: center;
+
+    color: #fff;
+    background-color: #de3c03;
+}
+
+.screen-2  .wrip ul li a
+{
+    position: relative;
+}
+
+.screen-2 .wrip ul li a .cx
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url(../images/zz.png) 0 0  cover no-repeat;
+}
+
+.screen-2 .wrip ul li a .jj
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/jj.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .yf
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/yf.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .wd
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/rmfw.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .fanwei
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/ssfw.png') no-repeat;
+    background-size: cover;
+}
+
+.screen-2 .wrip ul li a .kf
+{
+    position: absolute;
+    top: 15px;
+    left: 40px;
+
+    width: 20px;
+    height: 20px;
+
+    background: url('../images/zxkf.png') no-repeat;
+    background-size: cover;
+}
+
+#jx
+{
+    position: relative;
+    top: 70px;
+    left: 70px;
+
+    width: 210px;
+    height: 260px;
+
+    background-image: url('../images/jx.png');
+    background-size: cover;
+}
+
+
+.cekuang
+{
+    position: absolute;
+    bottom: 40px;
+    left: 490px;
+
+    width: 900px;
+    height: 600px;
+
+    background-color: #dedede;
+    box-shadow: -3px -3px 0 0 #de3c03 inset;
+}

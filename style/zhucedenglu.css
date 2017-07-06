@@ -1,0 +1,49 @@
+
+
+.t_title h1
+{
+    font-size: 42px;
+    font-weight: bold;
+
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+}
+
+.zhucedenglu ul
+{
+    position: relative;
+    top: 50px;
+
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+
+    background-color: #dedede;
+}
+
+.zhucedenglu ul li
+{
+    float: left;
+
+    width: 200px;
+    height: 60px;
+}
+
+.zhucedenglu ul li :hover
+{
+    border: #de3c03 5px solid;
+}
+
+.zhucedenglu ul li a
+{
+    font-size: 32px;
+    font-weight: bold;
+
+    width: 200px;
+    margin-left: 50px;
+
+    text-align: center;
+
+    color: #de3c03;
+}

@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>寄件</title>
+    <link rel="shortcut icon" type="image/x-icon" href="images/logo_x.png">
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style/normalize.css">
+    <link rel="stylesheet" type="text/css" href="style/index.css" media="only screen and (min-width:600px)">
+    <link rel="stylesheet" type="text/css" href="style/index_max.css" media="only screen and (max-width:600px)">
+    <link rel="stylesheet" type="text/css" href="style/zys.css">
+    <link rel="stylesheet" href="style/woyaojijian.css">
+    <link rel="stylesheet" type="text/css" href="style/zxxd.css">
+    <script type="text/javascript" src="js/jquery-1.6.4.min.js"></script>
+    <script type="text/javascript" src="js/tabbedContent.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/new.js"></script>
+</head>
+
+<body>
+    <header>
+        <div class="wrip1">
+            <nav class="lt">
+                <ul>
+                    <a href="index.jsp"><img src="images/logo.png"></a>
+                    <li><a href="index.jsp">首页</a></li>
+                    <li><a href="">物流</a></li>
+                    <li><a href="">金融</a></li>
+                    <li><a href="">闪达投资者</a></li>
+                    <li><a href="">关于我们</a></li>
+                </ul>
+            </nav>
+            <nav class="rt">
+                <ul>
+                    <li><span class="p"></span><a href="">947926</a></li>
+                    <li><a href="zhucedenglu.jsp">会员登录</a></li>
+                    <li><a href="zhucedenglu.jsp">会员注册</a></li>
+                    <li><span class="q"></span><a href="">企业级专区</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="screen-2">
+        <div class="wrip">
+            <ul id="cebian">
+                <li><a href="ydzz.jsp" class="daohang" id="daohang"><span class="cx"></span>运单追踪</a></li>
+                <li><a href="woyaojijian.jsp" class="daohang" id="daohang"><span class="jj"></span>寄件</a></li>
+                <li><a href="yfsxcx.jsp" class="daohang" id="daohang"><span class="yf"></span>运费时效查询</a></li>
+                <li><a href="" class="daohang" id="daohang"><span class="wd"></span>服务网点查询</a></li>
+                <li><a href="" class="daohang" id="daohang"><span class="fanwei"></span>收寄范围查询</a></li>
+                <li><a class="daohang" id="daohang" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1207154182&site=qq&menu=yes"><span class="kf"></span>在线客服</a></li>
+            </ul>
+            <div id="jx"></div>
+            <div class="cekuang" id="cekuang">
+                <h3>寄件人信息</h3>
+                <div class="jjrxinxi">
+                    <span id="span1">*寄件地址:</span>
+                <select style="width:200px ;height: 30px;" name="stationId" id="shurukuang1">
+                  <option selected="selected">-----请输入您所在的站点-----</option>
+                   <c:forEach items="${liststations}" var="liststations" varStatus="status">
+                  <option value="${liststations.stationId}">${liststations.stationName}</option>
+                  </c:forEach>
+                </select>
+                    <span id="span2">*详细地址:</span>
+                    <input type="text" name="name" placeholder="详细地址（例如XX路，XX号）" checked="checked" value="" id="shurukuang2">
+                    <br>
+                    <span id="span3">*真实姓名:</span>
+                    <input type="text" name="name" placeholder="请输入寄件人真实姓名" checked="checked" value="" id="shurukuang3">
+                    <span id="span4">*手机号码:</span>
+                    <input type="text" name="name" placeholder="手机号与座机号至少填写一个" checked="checked" value="" id="shurukuang4">
+                    <br>
+                    <span id="span5">*座机号码:</span>
+                    <input type="text" name="name" placeholder="手机号与座机号至少填写一个" checked="checked" value="" id="shurukuang5">
+                    <span id="span6">邮箱:</span>
+                    <input type="text" name="name" placeholder="此邮件用于接收下单进度提醒!" checked="checked" value="" id="shurukuang6">
+                    <br>
+                    <span id="span7">*收件地址:</span>
+                  <select style="width:200px ;height: 30px;" name="stationId" id="shurukuang7">
+                  <option selected="selected">-----请输入您所在的站点-----</option>
+                   <c:forEach items="${liststations}" var="liststations" varStatus="status">
+                  <option value="${liststations.stationId}">${liststations.stationName}</option>
+                  </c:forEach>
+                </select>
+                    <span id="span8">*详细地址:</span>
+                    <input type="text" name="name" placeholder="详细地址（例如XX路，XX号）" checked="checked" value="" id="shurukuang8">
+                    <br>
+                    <span id="span9">*真实姓名:</span>
+                    <input type="text" name="name" placeholder="请输入收件人真实姓名" checked="checked" value="" id="shurukuang9">
+                    <span id="span10">*手机号码:</span>
+                    <input type="text" name="name" placeholder="手机号与座机号至少填写一个" checked="checked" value="" id="shurukuang10">
+                    <br>
+                    <span id="span11">*座机号码:</span>
+                    <input type="text" name="name" placeholder="手机号与座机号至少填写一个" checked="checked" value="" id="shurukuang11">
+                    <span id="span12">预估重量:</span>
+                    <input type="text" name="name" placeholder="          /kg，重量不得大于50kg" checked="checked" value="" id="shurukuang12">
+                    <br>
+                    <button id="button_tijiao">提交订单</button>
+                </div>
+                <h3>收件人信息</h3>
+            </div>
+            <div class="jijianhe" id="jijianhe">
+            </div>
+    </section>
+    <footer>
+        <div class="wrip2">
+            <ul class="label-top">
+                <li>
+                    <a class="f-title">物流</a>
+                    <a href="">快递服务</a>
+                    <a href="">冷运服务</a>
+                    <a href="">仓储服务</a>
+                </li>
+                <li>
+                    <a class="f-title">金融</a>
+                    <a href="">供应链金融</a>
+                    <a href="">融资租赁</a>
+                    <a href="">理财</a>
+                    <a href="">综合支付</a>
+                </li>
+                <li>
+                    <a class="f-title">商业</a>
+                    <a href="">闪达优选网上商城</a>
+                    <a href="" target="_blank"> 闪达优选门店</a>
+                </li>
+                <li>
+                    <a class="f-title" href="case_share/">成功案列</a>
+                    <a href="">3C电子行业</a>
+                    <a href="">医疗行业</a>
+                    <a href="">生鲜行业</a>
+                    <a href="">快消行业</a>
+                </li>
+                <li class="language-en">
+                    <a class="f-title">服务支持</a>
+                    <a href="woyaojijian.jsp">我要寄件</a>
+                    <a href="ydzz.jsp">运单追踪</a>
+                    <a href="">运费时效查询</a>
+                    <a href="">收寄范围查询</a>
+                    <a href="">服务网点查询</a>
+                    <a href="">收寄标准查询</a>
+                    <a href="">更多内容查询</a>
+                </li>
+                <li>
+                    <a class="f-title">闪达投资者关系</a>
+                    <a href="">公司公告</a>
+                    <a href="">财务信息</a>
+                    <a href="">投资者联络</a>
+                    <a href="">公司治理</a>
+                </li>
+                <li>
+                    <a class="f-title" href="">关于我们</a>
+                    <a href="">关于闪达</a>
+                    <a href="">新闻资讯</a>
+                    <a href="">服务公告</a>
+                    <a href="">促销活动</a>
+                    <a href="">会员权益</a>
+                    <a href="" target="_blank">人才招聘</a>
+                </li>
+                <li>
+                    <a class="f-title">联系我们</a>
+                    <a href="" class="void">客服专线947926</a>
+                    <a href="">客服及监督热线</a>
+                    <a href="">合作咨询</a>
+                </li>
+                <p class="f-title">马上联系我们</p>
+                <div class="dctubiao">
+                    <a href=""><img src="images/yj.png" id="youjian" onmousemove="myshow1()" onmouseout="myshow2()"></a>
+                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=1207154182&site=qq&menu=yes"><img src="images/qq.png" id="qq" target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"></a>
+                    <a href=""><img src="images/kefu.png" id="kefu"></a>
+                    <div id="xuanfu"></div>
+                </div>
+            </ul>
+        </div>
+        <div id="banquan">
+            <p>© 2017 闪达速运 版权所有 赣 ICP 备74110号</p>
+        </div>
+    </footer>
+</body>
+
+</html>
